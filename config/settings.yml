@@ -1,0 +1,5 @@
+user:
+  name_length: 50
+  email_length: 255
+  pass_length: 6
+  size_ava: 80
