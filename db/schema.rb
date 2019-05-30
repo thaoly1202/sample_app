@@ -1,4 +1,4 @@
-ActiveRecord::Schema.define(version: 20_190_530_082_050) do
+ActiveRecord::Schema.define(version: 20_190_530_160_625) do
   create_table "users", force: :cascade do |t|
     t.string "name"
     t.string "email"
@@ -6,6 +6,7 @@ ActiveRecord::Schema.define(version: 20_190_530_082_050) do
     t.datetime "updated_at", null: false
     t.string "password_digest"
     t.string "remember_digest"
+    t.boolean "admin", default: false
     t.index ["email"], name: "index_users_on_email", unique: true
   end
 end
