@@ -1,0 +1,4 @@
+<%= t("mail.greeting") %><%= @user.name %><%= t("special_characters.comma") %>
+
+<%= t("text.click_mail") %>
+<%= edit_account_activation_url(id: @user.activation_token, email: @user.email) %>
