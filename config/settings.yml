@@ -7,9 +7,14 @@ domain: "gmail.com"
 authentication: "plain"
 enable_auto: true
 password_expire_time: 2
+size_limit: 400
+n_5: 5
+img_rule: "image/jpeg,image/gif,image/png"
 user:
   name_length: 50
   email_length: 255
   pass_length: 6
   size_ava: 80
   size_ava_sm: 50
+micropost:
+  length_max: 140

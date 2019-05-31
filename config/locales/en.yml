@@ -111,3 +111,6 @@ en:
     msg_size_pic: "Maximum file size is 5MB. Please choose a smaller file."
   link:
     rails: "http://rubyonrails.org/"
+    micropost_created: "Micropost created!"
+    micropost_deleted: "Micropost deleted!"
+    micropost_detele_failed: "Micropost delete FAILED"
