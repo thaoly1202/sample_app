@@ -1,11 +1,12 @@
 checked: "1"
 per_page: 30
-default_from_email: "noreply@example.com"
+default_from_email: "pttl1202@gmail.com"
 address: "smtp.gmail.com"
 port: 587
 domain: "gmail.com"
 authentication: "plain"
 enable_auto: true
+password_expire_time: 2
 user:
   name_length: 50
   email_length: 255
