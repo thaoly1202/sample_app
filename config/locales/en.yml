@@ -34,6 +34,7 @@ en:
     update_pass: "Update pass"
     view_profile: "view my profile"
     compose: "Compose new micropost..."
+    view_pr: "view my profile"
   title:
     signup: "Sign Up"
     all_users: "All Users"
@@ -80,6 +81,8 @@ en:
     edit: "Edit user"
     save_change: "Save changes"
     post: "Post"
+    follow: "Follow"
+    unfollow: "Unfollow"
   errors:
     nil_user: "User not found"
     msg1: "Invalid email/password combination"
@@ -114,3 +117,6 @@ en:
     micropost_created: "Micropost created!"
     micropost_deleted: "Micropost deleted!"
     micropost_detele_failed: "Micropost delete FAILED"
+  follow:
+    followers: "followers"
+    following: "following"
